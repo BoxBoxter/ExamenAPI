@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[Collectible] (
+    [Id]           INT NOT NULL,
+    [barrels]      INT NULL,
+    [soccer_balls] INT NULL,
+    [pizzas]       INT NULL,
+    [cookies]      INT NULL,
+    [skulls]       INT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
